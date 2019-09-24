@@ -6,7 +6,7 @@
 
 ## Things Learned:
 
--   HTML `data-__ANYWORD__` attribute can be made for custom names
--   From JavaScript, target these element by calling `__ELEMENT__[data-__ANYWORD__]`
+-   HTML `data-ANYWORD` attribute can be made for custom names
+-   From JavaScript, target these element by calling `ELEMENT[data-ANYWORD]`
 -   `if (condition) return;` will just stop the function from running
 -   `audio.currentTime = 0` to reset audio playback
