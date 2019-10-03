@@ -1,9 +1,9 @@
-# Day 5 - Array Cardio Day 1
+# Day 5 - Flex Panel Gallery
 
-**Completed on:** _09/30/2019_
+**Completed on:** _10/03/2019_
 
 ---
 
 ## Things Learned:
 
--
+-   JS `e.propertyName` targets the CSS property name
