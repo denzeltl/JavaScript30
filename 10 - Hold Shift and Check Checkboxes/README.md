@@ -1,11 +1,10 @@
-# Day 9 - 14 Must Know Dev Tools Trick
+# Day 10 - Hold Shift to Check Multiple Checkboxes
 
-**Completed on:** _10/12/2019_
+**Completed on:** _10/15/2019_
 
 ---
 
 ## Things Learned:
 
--   "break on: attribute modifications" on an element in the dev tool shows what code is responsible for the change
--   `console.assert(ifStatement, "ERROR");` would log an error if the statement is false
--   `console.table(ARRAY` displays the array in a table
+-   `e.shiftKey` results to _true_ if the shift key is pressed down
+-   _variable_ = _!variable_ will reverse it's current boolean
