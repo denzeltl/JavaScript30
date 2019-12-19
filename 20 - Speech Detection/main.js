@@ -8,7 +8,18 @@ const words = document.querySelector(".words");
 words.appendChild(p);
 
 recognition.addEventListener("result", e => {
-    console.log(e);
+    const transcript = Array.from(e.results)
+        .map(result => results[0])
+        .map(result => results.transcipt)
+        .join("");
+
+    p.textContent = transcript;
+    if (e.results[0].isFinal) {
+        p = document.createElement("p");
+        words.appendChild(p);
+    }
 });
+
+recognition.addEventListener("result", recognition.start);
 
 recognition.start();
